@@ -1,18 +1,19 @@
-# require "formula"
-
-class Walk < Formula
-  desc "walkfwd CSV File Normalization Tool v0.1.0"
-  homepage "https://github.com/F8-Analytics/homebrew-walkfwd"
-  url "https://github.com/F8-Analytics/homebrew-walkfwd/walkfwd-darwin-amd64.tar.gz", :using => GithubGitDownloadStrategy
+# Documentation: https://docs.brew.sh/Formula-Cookbook
+#                https://rubydoc.brew.sh/Formula
+# PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
+class HomebrewWalkfwd < Formula
+  desc ""
+  homepage ""
+  url "https://github.com/F8-Analytics/homebrew-walkfwd/releases/download/v0.1.0/walkfwd-darwin-amd$
   sha256 "dfff81379dba66c83d9706800798dca66c692c8a22499261cc8eca765b571af7"
-  head "https://github.com/F8-Analytics/homebrew-walkfwd.git"
+  license ""
+
+  # depends_on "cmake" => :build
 
   def install
-    bin.install "walkfwd"
+    # ENV.deparallelize  # if your formula fails when building in parallel
+    # Remove unrecognized options if warned by configure
+    # https://rubydoc.brew.sh/Formula.html#std_configure_args-instance_method
+    system "./configure", *std_configure_args, "--disable-silent-rules"
+    # system "cmake", "-S", ".", "-B", "build", *std_cmake_args
   end
-
-  # Homebrew requires tests.
-  test do
-    assert_match "walkfwd version 0.1.0", shell_output("#{bin}/walkfwd -v", 2)
-  end
-end
