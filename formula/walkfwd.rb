@@ -1,9 +1,11 @@
 # Documentation: https://docs.brew.sh/Formula-Cookbook
 #                https://rubydoc.brew.sh/Formula
+ Documentation: https://docs.brew.sh/Formula-Cookbook
+#                https://rubydoc.brew.sh/Formula
 # PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
 class HomebrewWalkfwd < Formula
-  desc ""
-  homepage ""
+  desc "walkfwd CSV File Normalization Tool v0.1.0""
+  homepage ""https://github.com/F8-Analytics/homebrew-walkfwd"
   url "https://github.com/F8-Analytics/homebrew-walkfwd/releases/download/v0.1.0/walkfwd-darwin-amd$
   sha256 "dfff81379dba66c83d9706800798dca66c692c8a22499261cc8eca765b571af7"
   license ""
@@ -17,3 +19,4 @@ class HomebrewWalkfwd < Formula
     system "./configure", *std_configure_args, "--disable-silent-rules"
     # system "cmake", "-S", ".", "-B", "build", *std_cmake_args
   end
+
