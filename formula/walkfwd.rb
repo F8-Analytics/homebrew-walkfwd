@@ -1,8 +1,3 @@
-# Documentation: https://docs.brew.sh/Formula-Cookbook
-#                https://rubydoc.brew.sh/Formula
- Documentation: https://docs.brew.sh/Formula-Cookbook
-#                https://rubydoc.brew.sh/Formula
-# PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
 class HomebrewWalkfwd < Formula
   desc "walkfwd CSV File Normalization Tool v0.1.0""
   homepage ""https://github.com/F8-Analytics/homebrew-walkfwd"
