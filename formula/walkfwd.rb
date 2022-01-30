@@ -2,7 +2,7 @@ class Walkfwd < Formula
   desc "walkfwd CSV File Normalization Tool v0.1.0"
   homepage "https://github.com/F8-Analytics/homebrew-walkfw"
   url "https://github.com/F8-Analytics/homebrew-walkfwd/releases/download/v0.1.0/walkfwd-darwin-amd64.tar.gz"
-  sha256 "dfff81379dba66c83d9706800798dca66c692c8a22499261cc8eca765b571af7"
+  sha256 "2707d9f44205a1f8d00fd993dfdc706431ca3f83d0c0ace5fc1e0875556ed374"
   head "https://github.com/F8-Analytics/homebrew-walkfwd.git"
   license "MIT"
 
