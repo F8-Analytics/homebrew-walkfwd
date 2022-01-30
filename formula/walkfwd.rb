@@ -1,8 +1,7 @@
 class Walkfwd < Formula
   desc "walkfwd CSV File Normalization Tool v0.1.0"
   homepage "https://github.com/F8-Analytics/walkfwd"
-  url ".../walkfwd-darwin-amd64.tar.gz", :using => GitHubPrivateRepositoryReleaseDownloadStrategy
-  sha256 "<SHA256 CHECKSUM>"
+  url "https://github.com/F8-Analytics/walkfwd/walkfwd-darwin-amd64.tar.gz", :using => GitHubPrivateRepositoryReleaseDownloadStrategy"
   head "https://github.com/F8-Analytics/walkfwd.git"
 
   def install
