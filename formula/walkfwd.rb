@@ -1,4 +1,4 @@
-class HomebrewWalkfwd < Formula
+class Walkfwd < Formula
   desc "walkfwd CSV File Normalization Tool v0.1.0"
   homepage "https://github.com/F8-Analytics/homebrew-walkfw"
   url "https://github.com/F8-Analytics/homebrew-walkfwd/releases/download/v0.1.0/walkfwd-darwin-amd$"
